@@ -6,8 +6,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'url: 'https://github.com/Alaaiden/ProjetStudentsManagement-DevOps.git'
-'
+                    url: 'https://github.com/Alaaiden/ProjetStudentsManagement-DevOps.git',
+                    credentialsId: 'github-token'
             }
         }
 
