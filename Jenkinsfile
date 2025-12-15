@@ -6,7 +6,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://forge-url-de-ton-repo.git'
+                    url: 'url: 'https://github.com/Alaaiden/ProjetStudentsManagement-DevOps.git'
+'
             }
         }
 
